@@ -1,5 +1,5 @@
 # NORVI-IIOT-AE04-V
-ESP32 based Controller with Analog Inputs with 4-20mA Including micro SD and RTC. 
+ESP32 based Controller with Analog Inputs with 0-10V Including micro SD and RTC. 
 
 USB Programmable Industrial ESP32 with OLED Display and din-rail mount. 
 It is I/O Compatible with industrial voltage levels and with added protection. Moreover, NORVI IIOT Industrial ESP32 is expandable with Expansion modules. 
