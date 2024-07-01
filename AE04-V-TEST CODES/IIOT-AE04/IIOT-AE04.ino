@@ -55,8 +55,6 @@ void setup() {
 
   pinMode(5, OUTPUT);
   digitalWrite(5,HIGH);
- //pinMode(15, OUTPUT);
- // digitalWrite(15,HIGH);
   
   pinMode(INPUT1, INPUT);
   pinMode(INPUT2, INPUT);
@@ -72,7 +70,7 @@ void setup() {
     for(;;); // Don't proceed, loop forever
   }
   display.display();
-  //int ads1 valu = 0;
+
   if (!ads1.begin(0x48)) {
     Serial.println("Failed to initialize ADS 1 .");
     while (1);
